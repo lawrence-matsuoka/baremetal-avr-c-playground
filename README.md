@@ -8,6 +8,9 @@ A repository to explore how to program an ATmega328P microcontroller development
 - avr-libc
     -binutils-avr
 
+## Check which port the microcontroller is connected to
+`ls /dev/ | grep ACM`
+
 ## Makefile
 Create a makefile to run certain commands to compile the code and to flash the microcontroller
 

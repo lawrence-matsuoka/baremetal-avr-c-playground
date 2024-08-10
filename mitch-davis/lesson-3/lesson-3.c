@@ -1,6 +1,6 @@
 // Pointers and dereferencing pointers
-#define somePortB *((volatile byte*) 0x25)  // Memory address 0x25
-#define someDirB *((volatile byte*) 0x24)   // Memory address 0x24
+#define somePortB *((volatile int*) 0x25)  // Memory address 0x25
+#define someDirB *((volatile int*) 0x24)   // Memory address 0x24
 
 void setup() {
 

@@ -16,8 +16,9 @@ pkgs.mkShell
     pkgsCross.avr.buildPackages.gcc
     #avr-gcc
     avrdude
-    #avrlibc
     #binutils-avr
   ];
-  # ...
+  buildInputs = with pkgs; [
+#    avrlibc
+  ];
 }
